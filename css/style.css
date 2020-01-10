@@ -195,9 +195,13 @@ header {
 	flex: 1;
 }
 .about-wrap-content__icon {
+	display: flex;
+	align-items: center;
+	justify-content: center;
 	width: 125px;
 	height: 125px;
 	flex: none;
+	font-size: 40px;
 	margin-right: 29px;
 	border: 2px solid #f39c12;
 	background-color: #ffffff;
@@ -219,4 +223,18 @@ header {
 	font-size: 20px;
 	font-weight: 300;
 	margin-bottom: 25px;
+}
+.about-wrap-img {
+	position: relative;
+}
+.about-wrap-img__icon {
+	position: absolute;
+	left: 0;
+	right: 0;
+	bottom: 0;
+	top: 0;
+	font-size: 32px;
+	display: flex;
+	align-items: center;
+	justify-content: center;
 }
