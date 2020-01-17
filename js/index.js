@@ -2,7 +2,7 @@
 var chartConfig = { 
   debug: true, 
   title_label_text: 
-    '2012 Presidential Election Results', 
+    '2012 Результаты голосований по штатам ', 
   type: 'map', 
   axisToZoom: '', 
   toolbar_visible: false, 
