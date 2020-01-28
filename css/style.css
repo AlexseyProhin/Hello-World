@@ -6,6 +6,7 @@ body {
 
 .wrapper {
 	max-width: 1250px;
+	width: 100%;
 	padding: 0 40px;
 	margin: 0 auto;
 }
@@ -40,7 +41,12 @@ h6 {
 	line-height: 25px;
 	text-transform: uppercase;
 }
-
+.hr {
+	/* Style for "Rectangle" */
+height: 2px;
+margin: 120px 0;
+background-color: #e6e6e6;
+}
 
 /* buttons */
 
@@ -186,8 +192,6 @@ header {
 .about-wrap {
 	display: flex;
 	align-items: flex-start;
-	border-bottom: 2px solid #e6e6e6;
-	padding-bottom: 120px;
 }
 .about-wrap-content {
 	display: flex;
@@ -244,7 +248,7 @@ header {
 
 .box-skills {
 	display: flex;
-	margin-top: 120px;
+	
 
 }
 
@@ -377,6 +381,8 @@ header {
 	padding: 25px 15px 30px;
 	text-align: center;
 	border-top: 4px solid transparent;
+	
+
 
 }
 .team-list__img {
@@ -393,12 +399,11 @@ header {
 
 }
 
-}
 .team-list__job {
 	color: #999999;
 	font-family: 'Lato',sans-serif;
 	font-size: 15px;
-	font-weight: 400;;
+	font-weight: 400;
 }
 
 .team-list__job:after {
@@ -410,10 +415,11 @@ header {
 	background-color: #cccccc;
 }
 
- .team-list__item p{
+ .team-list__item p {
 	line-height: 28px;
 	color: #595959;
 	font-size: 15px;
+
 }
 /*иконки не работают стили*/
 .social__link {
@@ -424,3 +430,38 @@ header {
 
 	background-color: #f39c12;	
 }
+.facts-list {
+	display: flex;
+	width: 100%;
+	justify-content: space-between;
+}
+.facts-list__item:hover .facts-list__icon {
+	border-color: #fff;
+
+}
+.facts-list__icon { 
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	width: 170px;
+	height: 170px;
+	margin-bottom: 30px;
+	border: 2px solid #f39c12;
+	border-radius: 50%;
+	color:#fff;
+	font-size: 32px;
+}
+.facts-list__icon [class*="icon"]:before {
+	color: #fff;
+}
+.facts-list h5 {
+	color: #ffffff;
+	font-size: 25px;
+	font-weight: 700;
+	line-height: 29px;
+	text-align: center;
+}
+.facts-list h5 span {
+	font-size: 45px;
+	line-height: 45px;
+	display: block;
